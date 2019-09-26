@@ -22,6 +22,11 @@
 		080E968F140E6DD5006F5915 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD41A140D050500B14F1D /* MainWindow-iPad.xib */; };
 		082CF8341414E54F004AC1FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 082CF8321414E54F004AC1FA /* Localizable.strings */; };
 		082CF8351414E54F004AC1FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 082CF8321414E54F004AC1FA /* Localizable.strings */; };
+		0831D8CD166540CD0034F03D /* GPSDialogCameraPremium144.png in Resources */ = {isa = PBXBuildFile; fileRef = 0831D8CC166540CD0034F03D /* GPSDialogCameraPremium144.png */; };
+		0831D8CF166540D50034F03D /* GPSDialogCameraFree144.png in Resources */ = {isa = PBXBuildFile; fileRef = 0831D8CE166540D50034F03D /* GPSDialogCameraFree144.png */; };
+		089B906D1665187A003303BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 089B906C1665187A003303BA /* Default-568h@2x.png */; };
+		089B906E1665187A003303BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 089B906C1665187A003303BA /* Default-568h@2x.png */; };
+		089B906F1665187A003303BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 089B906C1665187A003303BA /* Default-568h@2x.png */; };
 		08A7067514362A8100D98418 /* GPSDialogCameraFree.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067414362A8100D98418 /* GPSDialogCameraFree.png */; };
 		08A7067714362A8800D98418 /* GPSDialogCameraFree114.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067614362A8800D98418 /* GPSDialogCameraFree114.png */; };
 		08A7067914362A8F00D98418 /* GPSDialogCameraFree72.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067814362A8F00D98418 /* GPSDialogCameraFree72.png */; };
@@ -64,8 +69,11 @@
 /* Begin PBXFileReference section */
 		080E9693140E6DD5006F5915 /* GPSDialogCameraFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSDialogCameraFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		082CF8331414E54F004AC1FA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0831D8CC166540CD0034F03D /* GPSDialogCameraPremium144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraPremium144.png; sourceTree = "<group>"; };
+		0831D8CE166540D50034F03D /* GPSDialogCameraFree144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraFree144.png; sourceTree = "<group>"; };
 		088259A81452033000272943 /* GPSDialogCameraPremium-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GPSDialogCameraPremium-Info.plist"; sourceTree = "<group>"; };
 		088259AA1452033900272943 /* GPSDialogCameraFree-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GPSDialogCameraFree-Info.plist"; sourceTree = "<group>"; };
+		089B906C1665187A003303BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		08A7067414362A8100D98418 /* GPSDialogCameraFree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraFree.png; sourceTree = "<group>"; };
 		08A7067614362A8800D98418 /* GPSDialogCameraFree114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraFree114.png; sourceTree = "<group>"; };
 		08A7067814362A8F00D98418 /* GPSDialogCameraFree72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraFree72.png; sourceTree = "<group>"; };
@@ -142,6 +150,8 @@
 		08CAD3D0140D04FB00B14F1D = {
 			isa = PBXGroup;
 			children = (
+				0831D8CE166540D50034F03D /* GPSDialogCameraFree144.png */,
+				0831D8CC166540CD0034F03D /* GPSDialogCameraPremium144.png */,
 				08A7067E14362BC500D98418 /* GPSDialogCameraPremium72.png */,
 				08A7067C14362BBE00D98418 /* GPSDialogCameraPremium114.png */,
 				08A7067A14362BBA00D98418 /* GPSDialogCameraPremium.png */,
@@ -182,6 +192,7 @@
 		08CAD3E5140D04FB00B14F1D /* GPSDialogCamera */ = {
 			isa = PBXGroup;
 			children = (
+				089B906C1665187A003303BA /* Default-568h@2x.png */,
 				08A8841B140FCD38006796AD /* Settings.bundle */,
 				08CAD419140D050400B14F1D /* iPad */,
 				08CAD3EE140D04FB00B14F1D /* GPSDialogCameraAppDelegate.h */,
@@ -332,6 +343,8 @@
 				08A7067514362A8100D98418 /* GPSDialogCameraFree.png in Resources */,
 				08A7067714362A8800D98418 /* GPSDialogCameraFree114.png in Resources */,
 				08A7067914362A8F00D98418 /* GPSDialogCameraFree72.png in Resources */,
+				089B906E1665187A003303BA /* Default-568h@2x.png in Resources */,
+				0831D8CF166540D50034F03D /* GPSDialogCameraFree144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +361,8 @@
 				08A7067B14362BBA00D98418 /* GPSDialogCameraPremium.png in Resources */,
 				08A7067D14362BBF00D98418 /* GPSDialogCameraPremium114.png in Resources */,
 				08A7067F14362BC500D98418 /* GPSDialogCameraPremium72.png in Resources */,
+				089B906D1665187A003303BA /* Default-568h@2x.png in Resources */,
+				0831D8CD166540CD0034F03D /* GPSDialogCameraPremium144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +372,7 @@
 			files = (
 				08CAD40C140D04FB00B14F1D /* InfoPlist.strings in Resources */,
 				08CAD40E140D04FB00B14F1D /* GPSDialogCameraTests.h in Resources */,
+				089B906F1665187A003303BA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,12 +499,10 @@
 		080E9692140E6DD5006F5915 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPSDialogCamera/GPSDialogCamera-Prefix.pch";
 				INFOPLIST_FILE = "GPSDialogCamera/GPSDialogCameraFree-Info.plist";
 				PRODUCT_NAME = GPSDialogCameraFree;
-				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -499,12 +513,18 @@
 				ARCHS = (
 					armv6,
 					armv7,
+					armv7s,
 				);
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -550,12 +570,18 @@
 				ARCHS = (
 					armv6,
 					armv7,
+					armv7s,
 				);
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -585,7 +611,7 @@
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				"OTHER_CFLAGS[arch=*]" = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

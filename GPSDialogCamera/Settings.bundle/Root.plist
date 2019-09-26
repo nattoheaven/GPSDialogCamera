@@ -12,7 +12,7 @@
 		</dict>
 		<dict>
 			<key>DefaultValue</key>
-			<integer>4</integer>
+			<integer>0</integer>
 			<key>Key</key>
 			<string>picture_quality</string>
 			<key>MaximumValue</key>

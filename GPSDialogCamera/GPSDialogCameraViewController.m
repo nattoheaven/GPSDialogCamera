@@ -67,8 +67,8 @@ showGPSError()
         showGPSError();
         return;
     }
-    CGSize imageViewSize = imageView.bounds.size;
-    [imageView setCenter:CGPointMake(imageViewSize.width / 2, imageViewSize.height / 2)];
+    [imageView setCenter:CGPointMake([[self view] bounds].size.width * 0.5f,
+                                     [[self view] bounds].size.height * 0.5f)];
     [activityIndicator startAnimating];
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
@@ -144,6 +144,21 @@ showGPSError()
         default:
             break;
     }
+    UIScreen *screen = [UIScreen mainScreen];
+    CGRect imageRect;
+    if ([screen bounds].size.width * originalImage.size.height <=
+        originalImage.size.width * [screen bounds].size.height) {
+        imageRect.size =
+        CGSizeMake([screen bounds].size.width,
+                   [screen bounds].size.width * originalImage.size.height / originalImage.size.width);
+    } else {
+        imageRect.size =
+        CGSizeMake([screen bounds].size.height * originalImage.size.width / originalImage.size.height,
+                   [screen bounds].size.height);
+    }
+    imageRect.origin = CGPointMake(([screen bounds].size.width - imageRect.size.width) * 0.5f,
+                                   ([screen bounds].size.height - imageRect.size.height) * 0.5f);
+    [imageView setBounds:imageRect];
     [imageView setImage:originalImage];
     UIAlertView *alertView = [[UIAlertView alloc]
                               initWithTitle:NSLocalizedString(@"GPS", nil)
@@ -189,7 +204,6 @@ showGPSError()
                                         nil];
     [userDefaults registerDefaults:registeredDefaults];
     float pictureQualityFloat = fminf(fmaxf([userDefaults floatForKey:pictureQualityKey] / 8.0f, 0.0f), 1.0f);
-    NSLog(@"%f", pictureQualityFloat);
     NSData *data = UIImageJPEGRepresentation(originalImage, pictureQualityFloat);
     NSMutableDictionary *metadata = nil;
     if (buttonIndex == 0) {
