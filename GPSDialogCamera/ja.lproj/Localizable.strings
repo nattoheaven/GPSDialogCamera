@@ -1,0 +1,8 @@
+{
+	Error = "\U30a8\U30e9\U30fc";
+	"GPS is not Available." = "GPS\U304c\U6709\U52b9\U3067\U306f\U3042\U308a\U307e\U305b\U3093.";
+	"Do you Embed GPS Data?" = "GPS\U30c7\U30fc\U30bf\U3092\U57cb\U3081\U8fbc\U307f\U307e\U3059\U304b?";
+	Yes = "\U306f\U3044";
+	No = "\U3044\U3044\U3048";
+	"Camera is not Available." = "\U30ab\U30e1\U30e9\U304c\U6709\U52b9\U3067\U306f\U3042\U308a\U307e\U305b\U3093.";
+}

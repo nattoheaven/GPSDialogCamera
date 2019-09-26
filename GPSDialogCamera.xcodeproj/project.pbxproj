@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080E9681140E6DD5006F5915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CAD3EB140D04FB00B14F1D /* main.m */; };
+		080E9682140E6DD5006F5915 /* GPSDialogCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CAD3EF140D04FB00B14F1D /* GPSDialogCameraAppDelegate.m */; };
+		080E9683140E6DD5006F5915 /* GPSDialogCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CAD3F5140D04FB00B14F1D /* GPSDialogCameraViewController.m */; };
+		080E9685140E6DD5006F5915 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD423140D457300B14F1D /* ImageIO.framework */; };
+		080E9686140E6DD5006F5915 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD421140D375F00B14F1D /* CoreLocation.framework */; };
+		080E9687140E6DD5006F5915 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD41D140D0F9500B14F1D /* AssetsLibrary.framework */; };
+		080E9688140E6DD5006F5915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD3DF140D04FB00B14F1D /* UIKit.framework */; };
+		080E9689140E6DD5006F5915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD3E1140D04FB00B14F1D /* Foundation.framework */; };
+		080E968A140E6DD5006F5915 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD3E3140D04FB00B14F1D /* CoreGraphics.framework */; };
+		080E968C140E6DD5006F5915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD3E8140D04FB00B14F1D /* InfoPlist.strings */; };
+		080E968D140E6DD5006F5915 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD3F1140D04FB00B14F1D /* MainWindow.xib */; };
+		080E968E140E6DD5006F5915 /* GPSDialogCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD3F7140D04FB00B14F1D /* GPSDialogCameraViewController.xib */; };
+		080E968F140E6DD5006F5915 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD41A140D050500B14F1D /* MainWindow-iPad.xib */; };
+		082CF8341414E54F004AC1FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 082CF8321414E54F004AC1FA /* Localizable.strings */; };
+		082CF8351414E54F004AC1FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 082CF8321414E54F004AC1FA /* Localizable.strings */; };
+		08A7067514362A8100D98418 /* GPSDialogCameraFree.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067414362A8100D98418 /* GPSDialogCameraFree.png */; };
+		08A7067714362A8800D98418 /* GPSDialogCameraFree114.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067614362A8800D98418 /* GPSDialogCameraFree114.png */; };
+		08A7067914362A8F00D98418 /* GPSDialogCameraFree72.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067814362A8F00D98418 /* GPSDialogCameraFree72.png */; };
+		08A7067B14362BBA00D98418 /* GPSDialogCameraPremium.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067A14362BBA00D98418 /* GPSDialogCameraPremium.png */; };
+		08A7067D14362BBF00D98418 /* GPSDialogCameraPremium114.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067C14362BBE00D98418 /* GPSDialogCameraPremium114.png */; };
+		08A7067F14362BC500D98418 /* GPSDialogCameraPremium72.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A7067E14362BC500D98418 /* GPSDialogCameraPremium72.png */; };
+		08A8841C140FCD38006796AD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08A8841B140FCD38006796AD /* Settings.bundle */; };
 		08CAD3E0140D04FB00B14F1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD3DF140D04FB00B14F1D /* UIKit.framework */; };
 		08CAD3E2140D04FB00B14F1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD3E1140D04FB00B14F1D /* Foundation.framework */; };
 		08CAD3E4140D04FB00B14F1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD3E3140D04FB00B14F1D /* CoreGraphics.framework */; };
@@ -23,6 +45,10 @@
 		08CAD40C140D04FB00B14F1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD40A140D04FB00B14F1D /* InfoPlist.strings */; };
 		08CAD40E140D04FB00B14F1D /* GPSDialogCameraTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD40D140D04FB00B14F1D /* GPSDialogCameraTests.h */; };
 		08CAD410140D04FB00B14F1D /* GPSDialogCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CAD40F140D04FB00B14F1D /* GPSDialogCameraTests.m */; };
+		08CAD41C140D050500B14F1D /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CAD41A140D050500B14F1D /* MainWindow-iPad.xib */; };
+		08CAD41E140D0F9500B14F1D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD41D140D0F9500B14F1D /* AssetsLibrary.framework */; };
+		08CAD422140D375F00B14F1D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD421140D375F00B14F1D /* CoreLocation.framework */; };
+		08CAD424140D457300B14F1D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CAD423140D457300B14F1D /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,33 +62,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08CAD3DB140D04FB00B14F1D /* GPSDialogCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSDialogCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080E9693140E6DD5006F5915 /* GPSDialogCameraFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSDialogCameraFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082CF8331414E54F004AC1FA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		088259A81452033000272943 /* GPSDialogCameraPremium-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GPSDialogCameraPremium-Info.plist"; sourceTree = "<group>"; };
+		088259AA1452033900272943 /* GPSDialogCameraFree-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GPSDialogCameraFree-Info.plist"; sourceTree = "<group>"; };
+		08A7067414362A8100D98418 /* GPSDialogCameraFree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraFree.png; sourceTree = "<group>"; };
+		08A7067614362A8800D98418 /* GPSDialogCameraFree114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraFree114.png; sourceTree = "<group>"; };
+		08A7067814362A8F00D98418 /* GPSDialogCameraFree72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraFree72.png; sourceTree = "<group>"; };
+		08A7067A14362BBA00D98418 /* GPSDialogCameraPremium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraPremium.png; sourceTree = "<group>"; };
+		08A7067C14362BBE00D98418 /* GPSDialogCameraPremium114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraPremium114.png; sourceTree = "<group>"; };
+		08A7067E14362BC500D98418 /* GPSDialogCameraPremium72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPSDialogCameraPremium72.png; sourceTree = "<group>"; };
+		08A8841B140FCD38006796AD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		08CAD3DB140D04FB00B14F1D /* GPSDialogCameraPremium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSDialogCameraPremium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CAD3DF140D04FB00B14F1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		08CAD3E1140D04FB00B14F1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08CAD3E3140D04FB00B14F1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		08CAD3E7140D04FB00B14F1D /* GPSDialogCamera-Info.plist */ = {isa = PBXFileReference; path = "GPSDialogCamera-Info.plist"; sourceTree = "<group>"; };
 		08CAD3E9140D04FB00B14F1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08CAD3EB140D04FB00B14F1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		08CAD3ED140D04FB00B14F1D /* GPSDialogCamera-Prefix.pch */ = {isa = PBXFileReference; path = "GPSDialogCamera-Prefix.pch"; sourceTree = "<group>"; };
-		08CAD3EE140D04FB00B14F1D /* GPSDialogCameraAppDelegate.h */ = {isa = PBXFileReference; path = GPSDialogCameraAppDelegate.h; sourceTree = "<group>"; };
+		08CAD3ED140D04FB00B14F1D /* GPSDialogCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPSDialogCamera-Prefix.pch"; sourceTree = "<group>"; };
+		08CAD3EE140D04FB00B14F1D /* GPSDialogCameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSDialogCameraAppDelegate.h; sourceTree = "<group>"; };
 		08CAD3EF140D04FB00B14F1D /* GPSDialogCameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDialogCameraAppDelegate.m; sourceTree = "<group>"; };
 		08CAD3F2140D04FB00B14F1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		08CAD3F4140D04FB00B14F1D /* GPSDialogCameraViewController.h */ = {isa = PBXFileReference; path = GPSDialogCameraViewController.h; sourceTree = "<group>"; };
+		08CAD3F4140D04FB00B14F1D /* GPSDialogCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSDialogCameraViewController.h; sourceTree = "<group>"; };
 		08CAD3F5140D04FB00B14F1D /* GPSDialogCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDialogCameraViewController.m; sourceTree = "<group>"; };
 		08CAD3F8140D04FB00B14F1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GPSDialogCameraViewController.xib; sourceTree = "<group>"; };
 		08CAD3FF140D04FB00B14F1D /* GPSDialogCameraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSDialogCameraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CAD400140D04FB00B14F1D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		08CAD409140D04FB00B14F1D /* GPSDialogCameraTests-Info.plist */ = {isa = PBXFileReference; path = "GPSDialogCameraTests-Info.plist"; sourceTree = "<group>"; };
+		08CAD409140D04FB00B14F1D /* GPSDialogCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPSDialogCameraTests-Info.plist"; sourceTree = "<group>"; };
 		08CAD40B140D04FB00B14F1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08CAD40D140D04FB00B14F1D /* GPSDialogCameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSDialogCameraTests.h; sourceTree = "<group>"; };
 		08CAD40F140D04FB00B14F1D /* GPSDialogCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDialogCameraTests.m; sourceTree = "<group>"; };
+		08CAD41B140D050500B14F1D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		08CAD41D140D0F9500B14F1D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		08CAD421140D375F00B14F1D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		08CAD423140D457300B14F1D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		080E9684140E6DD5006F5915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E9685140E6DD5006F5915 /* ImageIO.framework in Frameworks */,
+				080E9686140E6DD5006F5915 /* CoreLocation.framework in Frameworks */,
+				080E9687140E6DD5006F5915 /* AssetsLibrary.framework in Frameworks */,
+				080E9688140E6DD5006F5915 /* UIKit.framework in Frameworks */,
+				080E9689140E6DD5006F5915 /* Foundation.framework in Frameworks */,
+				080E968A140E6DD5006F5915 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		08CAD3D8140D04FB00B14F1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CAD424140D457300B14F1D /* ImageIO.framework in Frameworks */,
+				08CAD422140D375F00B14F1D /* CoreLocation.framework in Frameworks */,
+				08CAD41E140D0F9500B14F1D /* AssetsLibrary.framework in Frameworks */,
 				08CAD3E0140D04FB00B14F1D /* UIKit.framework in Frameworks */,
 				08CAD3E2140D04FB00B14F1D /* Foundation.framework in Frameworks */,
 				08CAD3E4140D04FB00B14F1D /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +142,15 @@
 		08CAD3D0140D04FB00B14F1D = {
 			isa = PBXGroup;
 			children = (
+				08A7067E14362BC500D98418 /* GPSDialogCameraPremium72.png */,
+				08A7067C14362BBE00D98418 /* GPSDialogCameraPremium114.png */,
+				08A7067A14362BBA00D98418 /* GPSDialogCameraPremium.png */,
+				08A7067814362A8F00D98418 /* GPSDialogCameraFree72.png */,
+				08A7067614362A8800D98418 /* GPSDialogCameraFree114.png */,
+				08A7067414362A8100D98418 /* GPSDialogCameraFree.png */,
+				08CAD423140D457300B14F1D /* ImageIO.framework */,
+				08CAD421140D375F00B14F1D /* CoreLocation.framework */,
+				08CAD41D140D0F9500B14F1D /* AssetsLibrary.framework */,
 				08CAD3E5140D04FB00B14F1D /* GPSDialogCamera */,
 				08CAD407140D04FB00B14F1D /* GPSDialogCameraTests */,
 				08CAD3DE140D04FB00B14F1D /* Frameworks */,
@@ -96,8 +161,9 @@
 		08CAD3DC140D04FB00B14F1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08CAD3DB140D04FB00B14F1D /* GPSDialogCamera.app */,
+				08CAD3DB140D04FB00B14F1D /* GPSDialogCameraPremium.app */,
 				08CAD3FF140D04FB00B14F1D /* GPSDialogCameraTests.octest */,
+				080E9693140E6DD5006F5915 /* GPSDialogCameraFree.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +182,8 @@
 		08CAD3E5140D04FB00B14F1D /* GPSDialogCamera */ = {
 			isa = PBXGroup;
 			children = (
+				08A8841B140FCD38006796AD /* Settings.bundle */,
+				08CAD419140D050400B14F1D /* iPad */,
 				08CAD3EE140D04FB00B14F1D /* GPSDialogCameraAppDelegate.h */,
 				08CAD3EF140D04FB00B14F1D /* GPSDialogCameraAppDelegate.m */,
 				08CAD3F1140D04FB00B14F1D /* MainWindow.xib */,
@@ -123,6 +191,7 @@
 				08CAD3F5140D04FB00B14F1D /* GPSDialogCameraViewController.m */,
 				08CAD3F7140D04FB00B14F1D /* GPSDialogCameraViewController.xib */,
 				08CAD3E6140D04FB00B14F1D /* Supporting Files */,
+				082CF8321414E54F004AC1FA /* Localizable.strings */,
 			);
 			path = GPSDialogCamera;
 			sourceTree = "<group>";
@@ -130,7 +199,8 @@
 		08CAD3E6140D04FB00B14F1D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				08CAD3E7140D04FB00B14F1D /* GPSDialogCamera-Info.plist */,
+				088259AA1452033900272943 /* GPSDialogCameraFree-Info.plist */,
+				088259A81452033000272943 /* GPSDialogCameraPremium-Info.plist */,
 				08CAD3E8140D04FB00B14F1D /* InfoPlist.strings */,
 				08CAD3EB140D04FB00B14F1D /* main.m */,
 				08CAD3ED140D04FB00B14F1D /* GPSDialogCamera-Prefix.pch */,
@@ -157,12 +227,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		08CAD419140D050400B14F1D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				08CAD41A140D050500B14F1D /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08CAD3DA140D04FB00B14F1D /* GPSDialogCamera */ = {
+		080E967F140E6DD5006F5915 /* GPSDialogCameraFree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08CAD413140D04FB00B14F1D /* Build configuration list for PBXNativeTarget "GPSDialogCamera" */;
+			buildConfigurationList = 080E9690140E6DD5006F5915 /* Build configuration list for PBXNativeTarget "GPSDialogCameraFree" */;
+			buildPhases = (
+				080E9680140E6DD5006F5915 /* Sources */,
+				080E9684140E6DD5006F5915 /* Frameworks */,
+				080E968B140E6DD5006F5915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSDialogCameraFree;
+			productName = GPSDialogCamera;
+			productReference = 080E9693140E6DD5006F5915 /* GPSDialogCameraFree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08CAD3DA140D04FB00B14F1D /* GPSDialogCameraPremium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08CAD413140D04FB00B14F1D /* Build configuration list for PBXNativeTarget "GPSDialogCameraPremium" */;
 			buildPhases = (
 				08CAD3D7140D04FB00B14F1D /* Sources */,
 				08CAD3D8140D04FB00B14F1D /* Frameworks */,
@@ -172,9 +267,9 @@
 			);
 			dependencies = (
 			);
-			name = GPSDialogCamera;
+			name = GPSDialogCameraPremium;
 			productName = GPSDialogCamera;
-			productReference = 08CAD3DB140D04FB00B14F1D /* GPSDialogCamera.app */;
+			productReference = 08CAD3DB140D04FB00B14F1D /* GPSDialogCameraPremium.app */;
 			productType = "com.apple.product-type.application";
 		};
 		08CAD3FE140D04FB00B14F1D /* GPSDialogCameraTests */ = {
@@ -201,25 +296,45 @@
 /* Begin PBXProject section */
 		08CAD3D2140D04FB00B14F1D /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
 			buildConfigurationList = 08CAD3D5140D04FB00B14F1D /* Build configuration list for PBXProject "GPSDialogCamera" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 08CAD3D0140D04FB00B14F1D;
 			productRefGroup = 08CAD3DC140D04FB00B14F1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08CAD3DA140D04FB00B14F1D /* GPSDialogCamera */,
+				08CAD3DA140D04FB00B14F1D /* GPSDialogCameraPremium */,
+				080E967F140E6DD5006F5915 /* GPSDialogCameraFree */,
 				08CAD3FE140D04FB00B14F1D /* GPSDialogCameraTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		080E968B140E6DD5006F5915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E968C140E6DD5006F5915 /* InfoPlist.strings in Resources */,
+				080E968D140E6DD5006F5915 /* MainWindow.xib in Resources */,
+				080E968E140E6DD5006F5915 /* GPSDialogCameraViewController.xib in Resources */,
+				080E968F140E6DD5006F5915 /* MainWindow-iPad.xib in Resources */,
+				082CF8351414E54F004AC1FA /* Localizable.strings in Resources */,
+				08A7067514362A8100D98418 /* GPSDialogCameraFree.png in Resources */,
+				08A7067714362A8800D98418 /* GPSDialogCameraFree114.png in Resources */,
+				08A7067914362A8F00D98418 /* GPSDialogCameraFree72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		08CAD3D9140D04FB00B14F1D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +342,12 @@
 				08CAD3EA140D04FB00B14F1D /* InfoPlist.strings in Resources */,
 				08CAD3F3140D04FB00B14F1D /* MainWindow.xib in Resources */,
 				08CAD3F9140D04FB00B14F1D /* GPSDialogCameraViewController.xib in Resources */,
+				08CAD41C140D050500B14F1D /* MainWindow-iPad.xib in Resources */,
+				08A8841C140FCD38006796AD /* Settings.bundle in Resources */,
+				082CF8341414E54F004AC1FA /* Localizable.strings in Resources */,
+				08A7067B14362BBA00D98418 /* GPSDialogCameraPremium.png in Resources */,
+				08A7067D14362BBF00D98418 /* GPSDialogCameraPremium114.png in Resources */,
+				08A7067F14362BC500D98418 /* GPSDialogCameraPremium72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +379,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		080E9680140E6DD5006F5915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080E9681140E6DD5006F5915 /* main.m in Sources */,
+				080E9682140E6DD5006F5915 /* GPSDialogCameraAppDelegate.m in Sources */,
+				080E9683140E6DD5006F5915 /* GPSDialogCameraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		08CAD3D7140D04FB00B14F1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,12 +412,20 @@
 /* Begin PBXTargetDependency section */
 		08CAD406140D04FB00B14F1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08CAD3DA140D04FB00B14F1D /* GPSDialogCamera */;
+			target = 08CAD3DA140D04FB00B14F1D /* GPSDialogCameraPremium */;
 			targetProxy = 08CAD405140D04FB00B14F1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		082CF8321414E54F004AC1FA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082CF8331414E54F004AC1FA /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		08CAD3E8140D04FB00B14F1D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -319,49 +458,137 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		08CAD41A140D050500B14F1D /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08CAD41B140D050500B14F1D /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		080E9691140E6DD5006F5915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSDialogCamera/GPSDialogCamera-Prefix.pch";
+				INFOPLIST_FILE = "GPSDialogCamera/GPSDialogCameraFree-Info.plist";
+				PRODUCT_NAME = GPSDialogCameraFree;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		080E9692140E6DD5006F5915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPSDialogCamera/GPSDialogCamera-Prefix.pch";
+				INFOPLIST_FILE = "GPSDialogCamera/GPSDialogCameraFree-Info.plist";
+				PRODUCT_NAME = GPSDialogCameraFree;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		08CAD411140D04FB00B14F1D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		08CAD412140D04FB00B14F1D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				"OTHER_CFLAGS[arch=*]" = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -370,7 +597,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPSDialogCamera/GPSDialogCamera-Prefix.pch";
-				INFOPLIST_FILE = "GPSDialogCamera/GPSDialogCamera-Info.plist";
+				INFOPLIST_FILE = "GPSDialogCamera/GPSDialogCameraPremium-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -381,7 +608,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPSDialogCamera/GPSDialogCamera-Prefix.pch";
-				INFOPLIST_FILE = "GPSDialogCamera/GPSDialogCamera-Info.plist";
+				INFOPLIST_FILE = "GPSDialogCamera/GPSDialogCameraPremium-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -424,6 +651,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		080E9690140E6DD5006F5915 /* Build configuration list for PBXNativeTarget "GPSDialogCameraFree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080E9691140E6DD5006F5915 /* Debug */,
+				080E9692140E6DD5006F5915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		08CAD3D5140D04FB00B14F1D /* Build configuration list for PBXProject "GPSDialogCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -433,13 +669,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08CAD413140D04FB00B14F1D /* Build configuration list for PBXNativeTarget "GPSDialogCamera" */ = {
+		08CAD413140D04FB00B14F1D /* Build configuration list for PBXNativeTarget "GPSDialogCameraPremium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08CAD414140D04FB00B14F1D /* Debug */,
 				08CAD415140D04FB00B14F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08CAD416140D04FB00B14F1D /* Build configuration list for PBXNativeTarget "GPSDialogCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +685,7 @@
 				08CAD418140D04FB00B14F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
