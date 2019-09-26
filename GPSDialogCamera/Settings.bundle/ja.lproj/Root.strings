@@ -1,0 +1,13 @@
+{
+	"Picture Quality" = "\U5199\U771f\U306e\U753b\U8cea";
+	"GPS Logging" = "GPS\U53d6\U5f97";
+	Latitude = "\U7def\U5ea6";
+	Longitude = "\U7d4c\U5ea6";
+	Altitude = "\U9ad8\U5ea6";
+	Course = "\U9032\U884c\U65b9\U5411";
+	Speed = "\U79fb\U52d5\U901f\U5ea6";
+	"Time (Geotag)" = "\U6642\U523b\Uff08\U30b8\U30aa\U30bf\U30b0\Uff09";
+	"Date (Geotag)" = "\U65e5\U4ed8\Uff08\U30b8\U30aa\U30bf\U30b0\Uff09";
+	Heading = "\U5411\U304d";
+	"Date and Time (EXIF)" = "\U64ae\U5f71\U65e5\U6642\Uff08EXIF\Uff09";
+}

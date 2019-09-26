@@ -1,0 +1,5 @@
+{
+    "NSCameraUsageDescription" = "このデバイスで写真を撮るのに使います。";
+	"NSLocationWhenInUseUsageDescription" = "ジオタグの埋め込みに使います。";
+    "NSPhotoLibraryUsageDescription" = "撮影した写真を保存するのに使います。";
+}

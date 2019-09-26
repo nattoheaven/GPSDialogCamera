@@ -73,6 +73,9 @@ showGPSError()
     locationManager = [[CLLocationManager alloc] init];
     locationManager.delegate = self;
     if ([CLLocationManager locationServicesEnabled]) {
+        if ([locationManager respondsToSelector: @selector(requestWhenInUseAuthorization)]) {
+            [locationManager requestWhenInUseAuthorization];
+        }
         [locationManager startUpdatingLocation];
     }
     if ([CLLocationManager headingAvailable]) {
@@ -89,6 +92,18 @@ showGPSError()
 {
     CLLocation *releaseLocation = location;
     location = [newLocation retain];
+    if (releaseLocation) {
+        [releaseLocation release];
+    }
+    if ((![CLLocationManager headingAvailable] || heading) && !imagePickerController) {
+        [self resetImagePicker];
+    }
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)newLocations
+{
+    CLLocation *releaseLocation = location;
+    location = [[newLocations lastObject] retain];
     if (releaseLocation) {
         [releaseLocation release];
     }

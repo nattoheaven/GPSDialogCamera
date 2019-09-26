@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	080E967F140E6DD5006F5915 /* GPSDialogCameraFree */ = {
+		activeExec = 0;
+		executables = (
+			08435D7518014066001229BC /* GPSDialogCameraFree */,
+		);
+	};
+	0810C2331801619F00016AC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08CAD3ED140D04FB00B14F1D /* GPSDialogCamera-Prefix.pch */;
+		name = "GPSDialogCamera-Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	08435D7418014066001229BC /* GPSDialogCameraPremium */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GPSDialogCameraPremium;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	08435D7518014066001229BC /* GPSDialogCameraFree */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GPSDialogCameraFree;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	08435D86180140E8001229BC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	08435D87180140E8001229BC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	08435D97180142F0001229BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08CAD3ED140D04FB00B14F1D /* GPSDialogCamera-Prefix.pch */;
+		name = "GPSDialogCamera-Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	08CAD3D2140D04FB00B14F1D /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 08435D7418014066001229BC /* GPSDialogCameraPremium */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 08CAD3DA140D04FB00B14F1D /* GPSDialogCameraPremium */;
+		codeSenseManager = 08435D87180140E8001229BC /* Code sense */;
+		executables = (
+			08435D7418014066001229BC /* GPSDialogCameraPremium */,
+			08435D7518014066001229BC /* GPSDialogCameraFree */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					885,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					845,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 402743697;
+			PBXWorkspaceStateSaveDate = 402743697;
+		};
+		perUserProjectItems = {
+			0810C2331801619F00016AC5 /* PBXTextBookmark */ = 0810C2331801619F00016AC5 /* PBXTextBookmark */;
+			08435D97180142F0001229BC /* PBXTextBookmark */ = 08435D97180142F0001229BC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 08435D86180140E8001229BC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08CAD3DA140D04FB00B14F1D /* GPSDialogCameraPremium */ = {
+		activeExec = 0;
+		executables = (
+			08435D7418014066001229BC /* GPSDialogCameraPremium */,
+		);
+	};
+	08CAD3ED140D04FB00B14F1D /* GPSDialogCamera-Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 425}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 336}";
+		};
+	};
+	08CAD3FE140D04FB00B14F1D /* GPSDialogCameraTests */ = {
+		activeExec = 0;
+	};
+}
