@@ -30,28 +30,32 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.5</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.5.3</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>To take pictures with your device.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To embed geotags.</string>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 	<key>NSMainNibFile~ipad</key>
 	<string>MainWindow-iPad</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>To save taken pictures.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To save taken pictures.</string>
+	<key>UILaunchStoryboardName</key>
+	<string>Storyboard</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-	<string>To take pictures with your device.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>To embed geotags.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>To save taken pictures.</string>
 </dict>
 </plist>

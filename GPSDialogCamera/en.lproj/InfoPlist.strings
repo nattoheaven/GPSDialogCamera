@@ -1,5 +1,0 @@
-{
-    "NSCameraUsageDescription" = "To take pictures with your device.";
-	"NSLocationWhenInUseUsageDescription" = "To embed geotags.";
-    "NSPhotoLibraryUsageDescription" = "To save taken pictures.";
-}
